@@ -48,6 +48,23 @@ The initial environment includes:
 
 [View Lab 01 Documentation](docs/01-lab-foundation/lab-environment.md)
 
+## Lab 04 - Identity and Compliance
+
+Implemented identity, access control, device compliance, and endpoint security capabilities using Microsoft Entra ID and Microsoft Intune.
+
+Key tasks included:
+
+- Configuring Microsoft Entra ID role assignments
+- Implementing Microsoft Intune RBAC
+- Configuring scope tags and scoped administration
+- Creating and assigning a Windows compliance policy
+- Monitoring device compliance
+- Configuring Conditional Access based on device compliance
+- Deploying Windows Hello for Business
+- Configuring Windows LAPS
+- Verifying LAPS password rotation and Microsoft Entra ID backup
+
+[View Lab 04 Documentation](docs/04-identity-compliance/identity-compliance.md)
 ## Repository Purpose
 
 ## Lab 02 - Microsoft Entra ID Device Management
@@ -79,3 +96,4 @@ Key tasks included:
 [View Lab 03 Documentation](docs/03-intune-enrollment/intune-enrollment.md)
 
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management skills through documented hands-on labs rather than only theoretical MD-102 exam preparation.
+
