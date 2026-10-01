@@ -24,7 +24,7 @@ This repository documents the implementation, configuration, validation, and tro
 | 01 | Lab Foundation & Active Directory | Completed |
 | 02 | Microsoft Entra ID Device Management | Planned |
 | 03 | Microsoft Intune Enrollment | Planned |
-| 04 | Identity & Compliance | Planned |
+| 04 | Identity & Compliance | Completed |
 | 05 | Windows Autopilot | Planned |
 | 06 | Device Configuration | Planned |
 | 07 | Remote Device Management | Planned |
