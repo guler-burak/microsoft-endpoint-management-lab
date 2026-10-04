@@ -25,7 +25,7 @@ This repository documents the implementation, configuration, validation, and tro
 | 02 | Microsoft Entra ID Device Management | Completed |
 | 03 | Microsoft Intune Enrollment | Completed |
 | 04 | Identity & Compliance | Completed |
-| 05 | Windows Autopilot | Planned |
+| 05 | Windows Autopilot | Completed |
 | 06 | Device Configuration | Planned |
 | 07 | Remote Device Management | Planned |
 | 08 | Endpoint Security | Planned |
@@ -93,6 +93,21 @@ Key tasks included:
 - Verifying LAPS password rotation and Microsoft Entra ID backup
 
 [View Lab 04 Documentation](docs/04-identity-compliance/identity-compliance.md)
+
+## Lab 05 - Windows Autopilot
+
+Implemented and validated a Windows Autopilot deployment using Microsoft Intune.
+
+Key tasks included:
+
+- Registering MD102-CL02 with Windows Autopilot
+- Creating a user-driven Autopilot deployment profile
+- Configuring Microsoft Entra join
+- Creating an Enrollment Status Page
+- Resetting the Windows endpoint to OOBE
+- Successfully validating the Autopilot deployment workflow
+
+[View Lab 05 Documentation](docs/05-windows-autopilot/windows-autopilot.md)
 
 ## Repository Purpose
 
