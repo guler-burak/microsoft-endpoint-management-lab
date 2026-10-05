@@ -1,8 +1,8 @@
-\# Lab 07 - Intune Suite Add-on Capabilities
+﻿# Lab 07 - Intune Suite Add-on Capabilities
 
 
 
-\## Objective
+## Objective
 
 
 
@@ -10,7 +10,7 @@ Explore and configure selected Microsoft Intune Suite capabilities, including En
 
 
 
-\## Environment
+## Environment
 
 
 
@@ -28,7 +28,7 @@ Explore and configure selected Microsoft Intune Suite capabilities, including En
 
 
 
-\## Endpoint Analytics
+## Endpoint Analytics
 
 
 
@@ -40,19 +40,19 @@ The feature provides visibility into areas such as:
 
 
 
-\- Startup performance
+- Startup performance
 
-\- Application reliability
+- Application reliability
 
-\- Resource performance
+- Resource performance
 
-\- Work from anywhere
+- Work from anywhere
 
-\- Battery health
+- Battery health
 
 
 
-!\[Endpoint Analytics Overview](../../screenshots/07-intune-suite-addons/01-endpoint-analytics-overview.png)
+![Endpoint Analytics Overview](../../screenshots/07-intune-suite-addons/01-endpoint-analytics-overview.png)
 
 
 
@@ -60,7 +60,7 @@ The environment initially reported insufficient data because Endpoint Analytics 
 
 
 
-\## Remote Help
+## Remote Help
 
 
 
@@ -72,7 +72,7 @@ Remote Help was configured to support remote assistance scenarios, including sup
 
 
 
-!\[Remote Help Settings](../../screenshots/07-intune-suite-addons/02-remote-help-settings.png)
+![Remote Help Settings](../../screenshots/07-intune-suite-addons/02-remote-help-settings.png)
 
 
 
@@ -84,11 +84,11 @@ The device was ready to either request help or generate a security code for a re
 
 
 
-!\[Remote Help Ready](../../screenshots/07-intune-suite-addons/03-remote-help-ready.png)
+![Remote Help Ready](../../screenshots/07-intune-suite-addons/03-remote-help-ready.png)
 
 
 
-\## Microsoft Tunnel
+## Microsoft Tunnel
 
 
 
@@ -104,7 +104,7 @@ A Tunnel gateway was not deployed in this lab because the environment does not i
 
 
 
-\## Result
+## Result
 
 
 
@@ -112,15 +112,16 @@ The following tasks were completed:
 
 
 
-\- Enabled Microsoft Endpoint Analytics
+- Enabled Microsoft Endpoint Analytics
 
-\- Reviewed endpoint performance and experience reporting
+- Reviewed endpoint performance and experience reporting
 
-\- Enabled Microsoft Remote Help
+- Enabled Microsoft Remote Help
 
-\- Configured Remote Help tenant settings
+- Configured Remote Help tenant settings
 
-\- Installed and validated the Remote Help client
+- Installed and validated the Remote Help client
 
-\- Reviewed Microsoft Tunnel architecture and use cases
+- Reviewed Microsoft Tunnel architecture and use cases
+
 
