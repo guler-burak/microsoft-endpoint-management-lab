@@ -1,8 +1,8 @@
-\# Lab 03 - Microsoft Intune Enrollment
+﻿# Lab 03 - Microsoft Intune Enrollment
 
 
 
-\## Objective
+## Objective
 
 
 
@@ -10,7 +10,7 @@ Configure automatic Microsoft Intune enrollment for a Windows 11 endpoint and ve
 
 
 
-\## Environment
+## Environment
 
 
 
@@ -30,7 +30,7 @@ Configure automatic Microsoft Intune enrollment for a Windows 11 endpoint and ve
 
 
 
-\## Automatic Enrollment
+## Automatic Enrollment
 
 
 
@@ -42,11 +42,11 @@ The Microsoft Intune MDM user scope was configured to include this user group.
 
 
 
-!\[Automatic Enrollment Scope](../../screenshots/03-intune-enrollment/01-automatic-enrollment-mdm-scope.png)
+![Automatic Enrollment Scope](../../screenshots/03-intune-enrollment/01-automatic-enrollment-mdm-scope.png)
 
 
 
-\## Intune Enrollment
+## Intune Enrollment
 
 
 
@@ -62,11 +62,11 @@ The device was then verified in the Microsoft Intune admin center.
 
 
 
-!\[Intune Enrolled Device](../../screenshots/03-intune-enrollment/02-intune-enrolled-device.png)
+![Intune Enrolled Device](../../screenshots/03-intune-enrollment/02-intune-enrolled-device.png)
 
 
 
-\## Troubleshooting
+## Troubleshooting
 
 
 
@@ -82,7 +82,7 @@ After configuring the MDM user scope and rejoining the endpoint to Microsoft Ent
 
 
 
-\## Result
+## Result
 
 
 
@@ -90,15 +90,16 @@ The following tasks were completed:
 
 
 
-\- Configured Microsoft Intune automatic MDM enrollment
+- Configured Microsoft Intune automatic MDM enrollment
 
-\- Created an Intune enrollment user group
+- Created an Intune enrollment user group
 
-\- Added the test user to the enrollment scope
+- Added the test user to the enrollment scope
 
-\- Enrolled a Microsoft Entra Joined Windows 11 device into Intune
+- Enrolled a Microsoft Entra Joined Windows 11 device into Intune
 
-\- Verified the device in the Microsoft Intune admin center
+- Verified the device in the Microsoft Intune admin center
 
-\- Troubleshot an existing device that was not automatically enrolled
+- Troubleshot an existing device that was not automatically enrolled
+
 

@@ -1,8 +1,8 @@
-\# Lab 05 - Windows Autopilot
+﻿# Lab 05 - Windows Autopilot
 
 
 
-\## Objective
+## Objective
 
 
 
@@ -10,7 +10,7 @@ Register a Windows 11 device with Windows Autopilot, create and assign an Autopi
 
 
 
-\## Environment
+## Environment
 
 
 
@@ -34,7 +34,7 @@ Register a Windows 11 device with Windows Autopilot, create and assign an Autopi
 
 
 
-\## Autopilot Device Registration
+## Autopilot Device Registration
 
 
 
@@ -46,11 +46,11 @@ The hardware hash CSV was used only for device registration and was not stored i
 
 
 
-!\[Autopilot Device Registration](../../screenshots/05-windows-autopilot/01-autopilot-device-registration.png)
+![Autopilot Device Registration](../../screenshots/05-windows-autopilot/01-autopilot-device-registration.png)
 
 
 
-\## Autopilot Deployment Profile
+## Autopilot Deployment Profile
 
 
 
@@ -62,27 +62,27 @@ The profile was configured with:
 
 
 
-\- User-driven deployment
+- User-driven deployment
 
-\- Microsoft Entra join
+- Microsoft Entra join
 
-\- Standard user account
+- Standard user account
 
-\- Hidden Microsoft Software License Terms
+- Hidden Microsoft Software License Terms
 
-\- Hidden privacy settings
+- Hidden privacy settings
 
-\- Automatic keyboard configuration
+- Automatic keyboard configuration
 
-\- Automatic device naming using `MD102%SERIAL%`
-
-
-
-!\[Autopilot Deployment Profile](../../screenshots/05-windows-autopilot/02-autopilot-deployment-profile.png)
+- Automatic device naming using `MD102%SERIAL%`
 
 
 
-\## Enrollment Status Page
+![Autopilot Deployment Profile](../../screenshots/05-windows-autopilot/02-autopilot-deployment-profile.png)
+
+
+
+## Enrollment Status Page
 
 
 
@@ -94,23 +94,23 @@ The ESP provides visibility into:
 
 
 
-\- Device preparation
+- Device preparation
 
-\- Device setup
+- Device setup
 
-\- Account setup
+- Account setup
 
-\- Policy processing
+- Policy processing
 
-\- Application installation
-
-
-
-!\[Enrollment Status Page](../../screenshots/05-windows-autopilot/03-enrollment-status-page.png)
+- Application installation
 
 
 
-\## Autopilot Deployment
+![Enrollment Status Page](../../screenshots/05-windows-autopilot/03-enrollment-status-page.png)
+
+
+
+## Autopilot Deployment
 
 
 
@@ -126,11 +126,11 @@ The Enrollment Status Page successfully displayed the device preparation, device
 
 
 
-!\[Autopilot Deployment](../../screenshots/05-windows-autopilot/04-autopilot-deployment-result.png)
+![Autopilot Deployment](../../screenshots/05-windows-autopilot/04-autopilot-deployment-result.png)
 
 
 
-\## Troubleshooting Notes
+## Troubleshooting Notes
 
 
 
@@ -138,17 +138,17 @@ During the lab, the following considerations were reviewed:
 
 
 
-\- PowerShell execution policy temporarily blocked the Autopilot hardware hash script
+- PowerShell execution policy temporarily blocked the Autopilot hardware hash script
 
-\- The execution policy was bypassed only for the active PowerShell process
+- The execution policy was bypassed only for the active PowerShell process
 
-\- Autopilot device synchronization required time before the imported device appeared in the portal
+- Autopilot device synchronization required time before the imported device appeared in the portal
 
-\- Hardware hash data was not committed to GitHub
+- Hardware hash data was not committed to GitHub
 
 
 
-\## Result
+## Result
 
 
 
@@ -156,19 +156,20 @@ The following tasks were completed:
 
 
 
-\- Collected a Windows Autopilot hardware hash
+- Collected a Windows Autopilot hardware hash
 
-\- Registered a Windows device with Windows Autopilot
+- Registered a Windows device with Windows Autopilot
 
-\- Created a user-driven Autopilot deployment profile
+- Created a user-driven Autopilot deployment profile
 
-\- Configured Microsoft Entra join
+- Configured Microsoft Entra join
 
-\- Configured standard user provisioning
+- Configured standard user provisioning
 
-\- Configured an Enrollment Status Page
+- Configured an Enrollment Status Page
 
-\- Reset the Windows endpoint to OOBE
+- Reset the Windows endpoint to OOBE
 
-\- Successfully validated the Windows Autopilot deployment workflow
+- Successfully validated the Windows Autopilot deployment workflow
+
 

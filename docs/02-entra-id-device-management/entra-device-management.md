@@ -1,8 +1,8 @@
-\# Lab 02 - Microsoft Entra ID Device Management
+﻿# Lab 02 - Microsoft Entra ID Device Management
 
 
 
-\## Objective
+## Objective
 
 
 
@@ -14,25 +14,25 @@ The objectives of this lab were to:
 
 
 
-\- Understand Microsoft Entra device join types
+- Understand Microsoft Entra device join types
 
-\- Join a Windows 11 device directly to Microsoft Entra ID
+- Join a Windows 11 device directly to Microsoft Entra ID
 
-\- Validate the device join state
+- Validate the device join state
 
-\- Review Microsoft Entra registered devices
+- Review Microsoft Entra registered devices
 
-\- Create a security group for device management
+- Create a security group for device management
 
-\- Understand dynamic device membership concepts
-
-
-
-\---
+- Understand dynamic device membership concepts
 
 
 
-\## Environment
+---
+
+
+
+## Environment
 
 
 
@@ -52,11 +52,11 @@ The objectives of this lab were to:
 
 
 
-\---
+---
 
 
 
-\## 1. Microsoft Entra Device Join Types
+## 1. Microsoft Entra Device Join Types
 
 
 
@@ -64,7 +64,7 @@ Microsoft Entra ID supports multiple device identity models.
 
 
 
-\### Microsoft Entra Joined
+### Microsoft Entra Joined
 
 
 
@@ -72,7 +72,7 @@ Designed primarily for organization-owned devices that are joined directly to Mi
 
 
 
-\### Microsoft Entra Registered
+### Microsoft Entra Registered
 
 
 
@@ -80,7 +80,7 @@ Typically used when a user connects a work or school account to a personally own
 
 
 
-\### Microsoft Entra Hybrid Joined
+### Microsoft Entra Hybrid Joined
 
 
 
@@ -92,11 +92,11 @@ In this lab, `MD102-CL02` was configured as a Microsoft Entra Joined device.
 
 
 
-\---
+---
 
 
 
-\## 2. Microsoft Entra Join
+## 2. Microsoft Entra Join
 
 
 
@@ -116,15 +116,15 @@ The device was then verified from the Microsoft Entra admin center.
 
 
 
-!\[Microsoft Entra Joined Device](../../screenshots/02-entra-id-device-management/01-entra-joined-device.png)
+![Microsoft Entra Joined Device](../../screenshots/02-entra-id-device-management/01-entra-joined-device.png)
 
 
 
-\---
+---
 
 
 
-\## 3. Device Join Verification
+## 3. Device Join Verification
 
 
 
@@ -135,4 +135,5 @@ The Windows device registration status was validated locally by using:
 ```powershell
 
 dsregcmd /status
+
 

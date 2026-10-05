@@ -1,8 +1,8 @@
-\# Lab 01 - Hyper-V, Active Directory and Windows 11 Foundation
+﻿# Lab 01 - Hyper-V, Active Directory and Windows 11 Foundation
 
 
 
-\## Objective
+## Objective
 
 
 
@@ -14,7 +14,7 @@ The environment will be used throughout later labs involving Microsoft Entra ID,
 
 
 
-\## Environment
+## Environment
 
 
 
@@ -40,11 +40,11 @@ The environment will be used throughout later labs involving Microsoft Entra ID,
 
 
 
-\---
+---
 
 
 
-\## 1. Hyper-V Configuration
+## 1. Hyper-V Configuration
 
 
 
@@ -52,15 +52,15 @@ Microsoft Hyper-V was enabled on the host computer to provide the virtualization
 
 
 
-!\[Hyper-V Enabled](../../screenshots/01-lab-foundation/01-hyperv-enabled.png)
+![Hyper-V Enabled](../../screenshots/01-lab-foundation/01-hyperv-enabled.png)
 
 
 
-\---
+---
 
 
 
-\## 2. External Virtual Switch
+## 2. External Virtual Switch
 
 
 
@@ -68,11 +68,11 @@ An external Hyper-V virtual switch named `MD102-External` was created to provide
 
 
 
-!\[External Virtual Switch](../../screenshots/01-lab-foundation/02-external-virtual-switch.png)
+![External Virtual Switch](../../screenshots/01-lab-foundation/02-external-virtual-switch.png)
 
 
 
-\### Troubleshooting
+### Troubleshooting
 
 
 
@@ -84,11 +84,11 @@ The conflicting Network Bridge was removed and the external Hyper-V switch was t
 
 
 
-\---
+---
 
 
 
-\## 3. Windows Server 2022 Deployment
+## 3. Windows Server 2022 Deployment
 
 
 
@@ -104,15 +104,15 @@ Computer name:
 
 
 
-!\[Windows Server 2022](../../screenshots/01-lab-foundation/03-server-2022-installed.png)
+![Windows Server 2022](../../screenshots/01-lab-foundation/03-server-2022-installed.png)
 
 
 
-\---
+---
 
 
 
-\## 4. Windows 11 Endpoint
+## 4. Windows 11 Endpoint
 
 
 
@@ -128,15 +128,15 @@ Computer name:
 
 
 
-!\[Windows 11 Endpoint](../../screenshots/01-lab-foundation/04-windows11-system-about.png)
+![Windows 11 Endpoint](../../screenshots/01-lab-foundation/04-windows11-system-about.png)
 
 
 
-\---
+---
 
 
 
-\## 5. Active Directory Domain Services
+## 5. Active Directory Domain Services
 
 
 
@@ -165,4 +165,5 @@ Commands used:
 Get-ADDomainController
 
 Get-Service DNS,Netlogon,NTDS
+
 

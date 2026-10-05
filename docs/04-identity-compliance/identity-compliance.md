@@ -1,8 +1,8 @@
-\# Lab 04 - Identity and Compliance
+﻿# Lab 04 - Identity and Compliance
 
 
 
-\## Objective
+## Objective
 
 
 
@@ -10,7 +10,7 @@ Implement identity administration, role-based access control, device compliance,
 
 
 
-\## Environment
+## Environment
 
 
 
@@ -30,7 +30,7 @@ Implement identity administration, role-based access control, device compliance,
 
 
 
-\## Entra ID Role Assignment
+## Entra ID Role Assignment
 
 
 
@@ -38,15 +38,15 @@ A Microsoft Entra built-in role was assigned to a test user to demonstrate role-
 
 
 
-!\[Entra Role Assignment](../../screenshots/04-identity-compliance/01-entra-role-assignment.png)
+![Entra Role Assignment](../../screenshots/04-identity-compliance/01-entra-role-assignment.png)
 
 
 
-!\[Assigned User](../../screenshots/04-identity-compliance/02-entra-role-assigned-user.png)
+![Assigned User](../../screenshots/04-identity-compliance/02-entra-role-assigned-user.png)
 
 
 
-\## Intune RBAC
+## Intune RBAC
 
 
 
@@ -58,11 +58,11 @@ The role assignment was scoped to the Windows device group.
 
 
 
-!\[Intune RBAC Assignment](../../screenshots/04-identity-compliance/03-intune-helpdesk-role-assignment.png)
+![Intune RBAC Assignment](../../screenshots/04-identity-compliance/03-intune-helpdesk-role-assignment.png)
 
 
 
-\## Scope Tags
+## Scope Tags
 
 
 
@@ -70,11 +70,11 @@ A custom scope tag named `MD102-Windows-Scope` was created and applied to suppor
 
 
 
-!\[Scope Tag Assignment](../../screenshots/04-identity-compliance/04-intune-scope-tag-assignment.png)
+![Scope Tag Assignment](../../screenshots/04-identity-compliance/04-intune-scope-tag-assignment.png)
 
 
 
-\## Device Compliance
+## Device Compliance
 
 
 
@@ -86,7 +86,7 @@ The policy included security requirements such as BitLocker and Secure Boot.
 
 
 
-!\[Compliance Policy](../../screenshots/04-identity-compliance/05-windows-compliance-policy.png)
+![Compliance Policy](../../screenshots/04-identity-compliance/05-windows-compliance-policy.png)
 
 
 
@@ -94,7 +94,7 @@ The policy was assigned to `Windows Device Group`.
 
 
 
-!\[Compliance Assignment](../../screenshots/04-identity-compliance/06-compliance-policy-assignment.png)
+![Compliance Assignment](../../screenshots/04-identity-compliance/06-compliance-policy-assignment.png)
 
 
 
@@ -102,11 +102,11 @@ Compliance status was successfully evaluated for `MD102-CL02`.
 
 
 
-!\[Compliance Status](../../screenshots/04-identity-compliance/09-compliance-device-status.png)
+![Compliance Status](../../screenshots/04-identity-compliance/09-compliance-device-status.png)
 
 
 
-\## Conditional Access
+## Conditional Access
 
 
 
@@ -122,15 +122,15 @@ The policy was initially configured in report-only mode for safe testing.
 
 
 
-!\[Conditional Access Policy](../../screenshots/04-identity-compliance/07-conditional-access-policy.png)
+![Conditional Access Policy](../../screenshots/04-identity-compliance/07-conditional-access-policy.png)
 
 
 
-!\[Compliance Grant Control](../../screenshots/04-identity-compliance/08-conditional-access-compliance-grant.png)
+![Compliance Grant Control](../../screenshots/04-identity-compliance/08-conditional-access-compliance-grant.png)
 
 
 
-\## Windows Hello for Business
+## Windows Hello for Business
 
 
 
@@ -138,11 +138,11 @@ A Windows Hello for Business configuration policy was created and assigned to th
 
 
 
-!\[Windows Hello Settings](../../screenshots/04-identity-compliance/10-windows-hello-policy-settings.png)
+![Windows Hello Settings](../../screenshots/04-identity-compliance/10-windows-hello-policy-settings.png)
 
 
 
-!\[Windows Hello Assignment](../../screenshots/04-identity-compliance/11-windows-hello-policy-assignment.png)
+![Windows Hello Assignment](../../screenshots/04-identity-compliance/11-windows-hello-policy-assignment.png)
 
 
 
@@ -150,11 +150,11 @@ Windows Hello sign-in options were successfully made available on `MD102-CL02`.
 
 
 
-!\[Windows Hello Verification](../../screenshots/04-identity-compliance/12-windows-hello-signin-options.png)
+![Windows Hello Verification](../../screenshots/04-identity-compliance/12-windows-hello-signin-options.png)
 
 
 
-\## Windows LAPS
+## Windows LAPS
 
 
 
@@ -166,15 +166,15 @@ The local administrator password was configured to be backed up to Microsoft Ent
 
 
 
-!\[LAPS Policy](../../screenshots/04-identity-compliance/13-laps-policy-settings.png)
+![LAPS Policy](../../screenshots/04-identity-compliance/13-laps-policy-settings.png)
 
 
 
-!\[LAPS Assignment](../../screenshots/04-identity-compliance/14-laps-policy-assignment.png)
+![LAPS Assignment](../../screenshots/04-identity-compliance/14-laps-policy-assignment.png)
 
 
 
-!\[Entra LAPS Enabled](../../screenshots/04-identity-compliance/15-entra-laps-enabled.png)
+![Entra LAPS Enabled](../../screenshots/04-identity-compliance/15-entra-laps-enabled.png)
 
 
 
@@ -182,11 +182,11 @@ LAPS event logs confirmed successful local password rotation and Microsoft Entra
 
 
 
-!\[LAPS Event Verification](../../screenshots/04-identity-compliance/17-laps-event-log-verification.png)
+![LAPS Event Verification](../../screenshots/04-identity-compliance/17-laps-event-log-verification.png)
 
 
 
-\## Result
+## Result
 
 
 
@@ -194,21 +194,22 @@ The following tasks were completed:
 
 
 
-\- Implemented Microsoft Entra ID RBAC
+- Implemented Microsoft Entra ID RBAC
 
-\- Implemented Microsoft Intune RBAC
+- Implemented Microsoft Intune RBAC
 
-\- Configured scoped administration
+- Configured scoped administration
 
-\- Created and assigned a Windows compliance policy
+- Created and assigned a Windows compliance policy
 
-\- Verified device compliance
+- Verified device compliance
 
-\- Created a Conditional Access policy based on device compliance
+- Created a Conditional Access policy based on device compliance
 
-\- Configured Windows Hello for Business
+- Configured Windows Hello for Business
 
-\- Configured Windows LAPS
+- Configured Windows LAPS
 
-\- Verified LAPS password rotation and Microsoft Entra ID backup
+- Verified LAPS password rotation and Microsoft Entra ID backup
+
 
