@@ -27,7 +27,7 @@ This repository documents the implementation, configuration, validation, and tro
 | 04 | Identity & Compliance | Completed |
 | 05 | Windows Autopilot | Completed |
 | 06 | Device Configuration | Completed |
-| 07 | Remote Device Management | Planned |
+| 07 | Intune Suite Add-on Capabilities | Completed |
 | 08 | Endpoint Security | Planned |
 | 09 | Update Management | Planned |
 | 10 | Application Management | Planned |
@@ -123,6 +123,21 @@ Key tasks included:
 - Reviewing Android and iOS configuration concepts
 
 [View Lab 06 Documentation](docs/06-device-configuration/device-configuration.md)
+
+## Lab 07 - Intune Suite Add-on Capabilities
+
+Explored selected Microsoft Intune Suite capabilities.
+
+Key tasks included:
+
+- Enabling Endpoint Analytics
+- Reviewing endpoint performance reporting
+- Enabling Microsoft Remote Help
+- Configuring Remote Help tenant settings
+- Validating the Remote Help client on MD102-CL02
+- Reviewing Microsoft Tunnel architecture
+
+[View Lab 07 Documentation](docs/07-intune-suite-addons/intune-suite-addons.md)
 
 ## Repository Purpose
 
