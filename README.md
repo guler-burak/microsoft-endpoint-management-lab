@@ -26,7 +26,7 @@ This repository documents the implementation, configuration, validation, and tro
 | 03 | Microsoft Intune Enrollment | Completed |
 | 04 | Identity & Compliance | Completed |
 | 05 | Windows Autopilot | Completed |
-| 06 | Device Configuration | Planned |
+| 06 | Device Configuration | Completed |
 | 07 | Remote Device Management | Planned |
 | 08 | Endpoint Security | Planned |
 | 09 | Update Management | Planned |
@@ -108,6 +108,21 @@ Key tasks included:
 - Successfully validating the Autopilot deployment workflow
 
 [View Lab 05 Documentation](docs/05-windows-autopilot/windows-autopilot.md)
+
+## Lab 06 - Device Configuration
+
+Implemented and validated Windows device configuration using Microsoft Intune.
+
+Key tasks included:
+
+- Creating a Windows Settings Catalog profile
+- Assigning configuration policies to managed Windows devices
+- Monitoring configuration profile deployment
+- Creating and testing a single-app Microsoft Edge kiosk
+- Validating kiosk mode on MD102-CL02
+- Reviewing Android and iOS configuration concepts
+
+[View Lab 06 Documentation](docs/06-device-configuration/device-configuration.md)
 
 ## Repository Purpose
 
