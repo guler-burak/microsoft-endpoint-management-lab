@@ -182,7 +182,6 @@ LAPS event logs confirmed successful local password rotation and Microsoft Entra
 
 
 
-![LAPS Event Verification](../../screenshots/04-identity-compliance/17-laps-event-log-verification.png)
 
 
 
