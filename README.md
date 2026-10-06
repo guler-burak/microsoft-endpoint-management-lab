@@ -139,6 +139,23 @@ Key tasks included:
 
 [View Lab 07 Documentation](docs/07-intune-suite-addons/intune-suite-addons.md)
 
+## Lab 08 - Remote Device Management
+
+Performed and reviewed common Microsoft Intune remote device management actions.
+
+Key tasks included:
+
+- Triggering a device Sync
+- Reviewing bulk device actions
+- Triggering a Microsoft Defender security intelligence update
+- Reviewing BitLocker recovery key rotation
+- Creating and assigning a BitLocker disk encryption policy
+- Reviewing Intune Device Query with KQL
+- Triggering a remote Windows restart
+- Reviewing Retire and Wipe without executing destructive actions
+
+[View Lab 08 Documentation](docs/08-remote-device-management/remote-device-management.md)
+
 ## Repository Purpose
 
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management skills through documented hands-on labs rather than only theoretical MD-102 exam preparation.
