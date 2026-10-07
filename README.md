@@ -174,8 +174,27 @@ Key tasks included:
 
 [View Lab 09 Documentation](docs/09-endpoint-security/endpoint-security.md)
 
+
+## Lab 10 - Update Management
+
+Configured and reviewed Windows update management capabilities using Microsoft Intune.
+
+Key tasks included:
+
+- Creating a Windows Update Ring
+- Configuring quality and feature update deferrals
+- Configuring active hours and update deadlines
+- Monitoring Windows update deployment status
+- Reviewing update troubleshooting workflows
+- Reviewing Android and Apple update management
+- Creating a Delivery Optimization policy
+- Configuring peer-to-peer update delivery for Windows devices
+
+[View Lab 10 Documentation](docs/10-update-management/update-management.md)
+
 ## Repository Purpose
 
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management skills through documented hands-on labs rather than only theoretical MD-102 exam preparation.
+
 
 
