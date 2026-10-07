@@ -156,7 +156,26 @@ Key tasks included:
 
 [View Lab 08 Documentation](docs/08-remote-device-management/remote-device-management.md)
 
+
+## Lab 09 - Endpoint Security
+
+Configured and validated Microsoft Intune endpoint security capabilities for a managed Windows 11 endpoint.
+
+Key tasks included:
+
+- Creating a Windows Security Baseline
+- Configuring Microsoft Defender Antivirus
+- Configuring Microsoft Defender Firewall
+- Creating an Endpoint Detection and Response policy
+- Creating an Attack Surface Reduction policy
+- Connecting Microsoft Intune with Microsoft Defender for Endpoint
+- Onboarding `MD102-CL02` to Microsoft Defender for Endpoint
+- Validating the device as Active in Defender Device Inventory
+
+[View Lab 09 Documentation](docs/09-endpoint-security/endpoint-security.md)
+
 ## Repository Purpose
 
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management skills through documented hands-on labs rather than only theoretical MD-102 exam preparation.
+
 
