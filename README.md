@@ -192,9 +192,26 @@ Key tasks included:
 
 [View Lab 10 Documentation](docs/10-update-management/update-management.md)
 
+
+## Lab 11 - Application Management
+
+Configured and reviewed application deployment capabilities using Microsoft Intune.
+
+Key tasks included:
+
+- Deploying VLC through Microsoft Store (new)
+- Creating a Microsoft 365 Apps configuration
+- Assigning Microsoft 365 Apps to the Windows Device Group
+- Reviewing Office Deployment Tool and Office Customization Tool
+- Configuring Microsoft 365 Apps Cloud Policy
+- Reviewing platform-specific application store deployment
+
+[View Lab 11 Documentation](docs/11-application-management/application-management.md)
+
 ## Repository Purpose
 
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management skills through documented hands-on labs rather than only theoretical MD-102 exam preparation.
+
 
 
 
