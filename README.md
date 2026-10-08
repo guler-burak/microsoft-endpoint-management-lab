@@ -208,9 +208,27 @@ Key tasks included:
 
 [View Lab 11 Documentation](docs/11-application-management/application-management.md)
 
+
+## Lab 12 - App Protection & App Configuration
+
+Configured Microsoft Intune Mobile Application Management and app configuration capabilities.
+
+Key tasks included:
+
+- Creating an iOS/iPadOS App Protection Policy
+- Configuring organizational data protection controls
+- Assigning App Protection to the MD102-Intune-Users group
+- Creating a Conditional Access policy requiring App Protection
+- Configuring Conditional Access in Report-only mode
+- Creating an Outlook App Configuration Policy
+- Reviewing managed apps and managed device scenarios
+
+[View Lab 12 Documentation](docs/12-app-protection/app-protection.md)
+
 ## Repository Purpose
 
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management skills through documented hands-on labs rather than only theoretical MD-102 exam preparation.
+
 
 
 
