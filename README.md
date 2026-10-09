@@ -242,9 +242,28 @@ Key tasks included:
 
 [View Lab 13 Documentation](docs/13-graph-automation/graph-automation.md)
 
+
+## Lab 14 - Windows Personalization & Corporate Branding
+
+Implemented centralized Windows corporate branding using Microsoft Intune.
+
+Key tasks included:
+
+- Creating a Windows Settings Catalog personalization policy
+- Configuring desktop wallpaper through Intune
+- Configuring the Windows lock screen image
+- Hosting branding assets in GitHub
+- Assigning the policy to the Windows Device Group
+- Validating the policy on MD102-CL02
+- Verifying successful desktop and lock screen configuration
+
+[View Lab 14 Documentation](docs/14-windows-personalization/windows-personalization.md)
+
 ## Repository Purpose
 
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management skills through documented hands-on labs rather than only theoretical MD-102 exam preparation.
+
+
 
 
 
