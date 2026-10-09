@@ -225,9 +225,27 @@ Key tasks included:
 
 [View Lab 12 Documentation](docs/12-app-protection/app-protection.md)
 
+
+## Lab 13 - PowerShell & Microsoft Graph Automation
+
+Used PowerShell and Microsoft Graph to query Microsoft Entra ID and Microsoft Intune resources.
+
+Key tasks included:
+
+- Installing the Microsoft Graph PowerShell SDK
+- Connecting PowerShell to Microsoft Graph
+- Querying Microsoft Entra ID users
+- Querying Microsoft Entra ID groups
+- Querying Microsoft Intune managed devices
+- Reviewing endpoint management automation scenarios
+- Reviewing Microsoft Security Copilot concepts and integrations
+
+[View Lab 13 Documentation](docs/13-graph-automation/graph-automation.md)
+
 ## Repository Purpose
 
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management skills through documented hands-on labs rather than only theoretical MD-102 exam preparation.
+
 
 
 
