@@ -1,0 +1,20 @@
+﻿# Windows
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# PowerShell temporary/output files
+*.clixml
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Sensitive local files
+.env
+*.secret
+*.key
