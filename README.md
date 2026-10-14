@@ -82,6 +82,7 @@ The lab environment is designed to cover enterprise endpoint management technolo
 | Lab | Topic | Status |
 |---|---|---|
 | 01 | Hyper-V, Active Directory and Windows 11 Foundation | Completed |
+| 02 | Microsoft Entra ID Device Management | Completed |
 
 ---
 
@@ -95,6 +96,16 @@ Key implementation areas include Hyper-V virtualization, Windows Server 2022, Ac
 
 ---
 
+
+## Lab 02 - Microsoft Entra ID Device Management
+
+Joined `MD102-CL02` directly to Microsoft Entra ID and validated the device identity using both the Entra admin center and `dsregcmd`.
+
+A device security group was also created for later Intune policy and application targeting.
+
+[View Lab 02 Documentation](docs/02-entra-id-device-management/entra-device-management.md)
+
+---
 ## Repository Structure
 
 ```text
@@ -128,3 +139,5 @@ Only configurations that were implemented or explicitly reviewed in the lab envi
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management experience through reproducible technical labs and documented validation.
 
 The project is intended to serve as a technical portfolio for Endpoint Administrator, IT Specialist, Modern Workplace, and Microsoft Intune-related roles.
+
+
