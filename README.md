@@ -84,6 +84,7 @@ The lab environment is designed to cover enterprise endpoint management technolo
 | 01 | Hyper-V, Active Directory and Windows 11 Foundation | Completed |
 | 02 | Microsoft Entra ID Device Management | Completed |
 | 03 | Microsoft Intune Enrollment | Completed |
+| 04 | Identity and Compliance | Completed |
 
 ---
 
@@ -115,6 +116,16 @@ Configured automatic MDM enrollment and enrolled `MD102-CL02` into Microsoft Int
 The lab includes MDM user scope configuration, enrollment verification, and troubleshooting an endpoint that initially appeared only in Microsoft Entra ID.
 
 [View Lab 03 Documentation](docs/03-intune-enrollment/intune-enrollment.md)
+
+---
+
+## Lab 04 - Identity and Compliance
+
+Configured Microsoft Entra and Intune administrative access, Windows compliance, Conditional Access, Windows Hello for Business, and Windows LAPS.
+
+The lab includes scoped administration, compliance validation on `MD102-CL02`, and LAPS password backup to Microsoft Entra ID.
+
+[View Lab 04 Documentation](docs/04-identity-compliance/identity-compliance.md)
 
 ---
 ## Repository Structure
@@ -150,6 +161,7 @@ Only configurations that were implemented or explicitly reviewed in the lab envi
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management experience through reproducible technical labs and documented validation.
 
 The project is intended to serve as a technical portfolio for Endpoint Administrator, IT Specialist, Modern Workplace, and Microsoft Intune-related roles.
+
 
 
 
