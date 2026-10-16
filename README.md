@@ -86,6 +86,7 @@ The lab environment is designed to cover enterprise endpoint management technolo
 | 03 | Microsoft Intune Enrollment | Completed |
 | 04 | Identity and Compliance | Completed |
 | 05 | Windows Autopilot | Completed |
+| 06 | Device Configuration | Completed |
 
 ---
 
@@ -139,6 +140,16 @@ The deployment was validated through Windows OOBE using an Enrollment Status Pag
 [View Lab 05 Documentation](docs/05-windows-autopilot/windows-autopilot.md)
 
 ---
+
+## Lab 06 - Device Configuration
+
+Created and validated Windows configuration profiles in Microsoft Intune and monitored policy deployment on `MD102-CL02`.
+
+The lab also includes a single-app Microsoft Edge kiosk configuration that was deployed and tested on the managed endpoint.
+
+[View Lab 06 Documentation](docs/06-device-configuration/device-configuration.md)
+
+---
 ## Repository Structure
 
 ```text
@@ -172,6 +183,7 @@ Only configurations that were implemented or explicitly reviewed in the lab envi
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management experience through reproducible technical labs and documented validation.
 
 The project is intended to serve as a technical portfolio for Endpoint Administrator, IT Specialist, Modern Workplace, and Microsoft Intune-related roles.
+
 
 
 
