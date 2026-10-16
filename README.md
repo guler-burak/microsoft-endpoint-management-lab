@@ -85,6 +85,7 @@ The lab environment is designed to cover enterprise endpoint management technolo
 | 02 | Microsoft Entra ID Device Management | Completed |
 | 03 | Microsoft Intune Enrollment | Completed |
 | 04 | Identity and Compliance | Completed |
+| 05 | Windows Autopilot | Completed |
 
 ---
 
@@ -128,6 +129,16 @@ The lab includes scoped administration, compliance validation on `MD102-CL02`, a
 [View Lab 04 Documentation](docs/04-identity-compliance/identity-compliance.md)
 
 ---
+
+## Lab 05 - Windows Autopilot
+
+Registered `MD102-CL02` with Windows Autopilot and configured a user-driven deployment profile for Microsoft Entra joined provisioning.
+
+The deployment was validated through Windows OOBE using an Enrollment Status Page.
+
+[View Lab 05 Documentation](docs/05-windows-autopilot/windows-autopilot.md)
+
+---
 ## Repository Structure
 
 ```text
@@ -161,6 +172,7 @@ Only configurations that were implemented or explicitly reviewed in the lab envi
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management experience through reproducible technical labs and documented validation.
 
 The project is intended to serve as a technical portfolio for Endpoint Administrator, IT Specialist, Modern Workplace, and Microsoft Intune-related roles.
+
 
 
 
