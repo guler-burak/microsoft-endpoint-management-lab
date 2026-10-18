@@ -90,6 +90,7 @@ The lab environment is designed to cover enterprise endpoint management technolo
 | 07 | Intune Suite Add-on Capabilities | Completed |
 | 08 | Remote Device Management | Completed |
 | 09 | Endpoint Security | Completed |
+| 10 | Update Management | Completed |
 
 ---
 
@@ -183,6 +184,16 @@ Microsoft Intune was also connected to Microsoft Defender for Endpoint, and `MD1
 [View Lab 09 Documentation](docs/09-endpoint-security/endpoint-security.md)
 
 ---
+
+## Lab 10 - Update Management
+
+Configured a Windows Update Ring in Microsoft Intune with quality and feature update deferrals, active hours, deadlines, and restart behavior.
+
+Windows Update monitoring and troubleshooting workflows were reviewed, and a Delivery Optimization policy was configured for local peer-to-peer content delivery.
+
+[View Lab 10 Documentation](docs/10-update-management/update-management.md)
+
+---
 ## Repository Structure
 
 ```text
@@ -216,6 +227,7 @@ Only configurations that were implemented or explicitly reviewed in the lab envi
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management experience through reproducible technical labs and documented validation.
 
 The project is intended to serve as a technical portfolio for Endpoint Administrator, IT Specialist, Modern Workplace, and Microsoft Intune-related roles.
+
 
 
 
