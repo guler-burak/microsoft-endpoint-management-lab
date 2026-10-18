@@ -89,6 +89,7 @@ The lab environment is designed to cover enterprise endpoint management technolo
 | 06 | Device Configuration | Completed |
 | 07 | Intune Suite Add-on Capabilities | Completed |
 | 08 | Remote Device Management | Completed |
+| 09 | Endpoint Security | Completed |
 
 ---
 
@@ -172,6 +173,16 @@ Destructive actions such as Retire and Wipe were reviewed but not executed.
 [View Lab 08 Documentation](docs/08-remote-device-management/remote-device-management.md)
 
 ---
+
+## Lab 09 - Endpoint Security
+
+Configured Windows endpoint security policies in Microsoft Intune, including Security Baseline, Defender Antivirus, Firewall, EDR, and Attack Surface Reduction.
+
+Microsoft Intune was also connected to Microsoft Defender for Endpoint, and `MD102-CL02` was validated as active in Defender Device Inventory.
+
+[View Lab 09 Documentation](docs/09-endpoint-security/endpoint-security.md)
+
+---
 ## Repository Structure
 
 ```text
@@ -205,6 +216,7 @@ Only configurations that were implemented or explicitly reviewed in the lab envi
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management experience through reproducible technical labs and documented validation.
 
 The project is intended to serve as a technical portfolio for Endpoint Administrator, IT Specialist, Modern Workplace, and Microsoft Intune-related roles.
+
 
 
 
