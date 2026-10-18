@@ -88,6 +88,7 @@ The lab environment is designed to cover enterprise endpoint management technolo
 | 05 | Windows Autopilot | Completed |
 | 06 | Device Configuration | Completed |
 | 07 | Intune Suite Add-on Capabilities | Completed |
+| 08 | Remote Device Management | Completed |
 
 ---
 
@@ -161,6 +162,16 @@ The Remote Help client was installed and validated on `MD102-CL02`. Microsoft Tu
 [View Lab 07 Documentation](docs/07-intune-suite-addons/intune-suite-addons.md)
 
 ---
+
+## Lab 08 - Remote Device Management
+
+Performed common Microsoft Intune remote management actions against `MD102-CL02`, including Sync, Defender security intelligence update, BitLocker management review, and remote Restart.
+
+Destructive actions such as Retire and Wipe were reviewed but not executed.
+
+[View Lab 08 Documentation](docs/08-remote-device-management/remote-device-management.md)
+
+---
 ## Repository Structure
 
 ```text
@@ -194,6 +205,7 @@ Only configurations that were implemented or explicitly reviewed in the lab envi
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management experience through reproducible technical labs and documented validation.
 
 The project is intended to serve as a technical portfolio for Endpoint Administrator, IT Specialist, Modern Workplace, and Microsoft Intune-related roles.
+
 
 
 
