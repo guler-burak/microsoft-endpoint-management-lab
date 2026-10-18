@@ -91,6 +91,7 @@ The lab environment is designed to cover enterprise endpoint management technolo
 | 08 | Remote Device Management | Completed |
 | 09 | Endpoint Security | Completed |
 | 10 | Update Management | Completed |
+| 11 | Application Management | Completed |
 
 ---
 
@@ -194,6 +195,16 @@ Windows Update monitoring and troubleshooting workflows were reviewed, and a Del
 [View Lab 10 Documentation](docs/10-update-management/update-management.md)
 
 ---
+
+## Lab 11 - Application Management
+
+Configured application deployment in Microsoft Intune using Microsoft Store (new), Microsoft 365 Apps, and Microsoft 365 Apps Cloud Policy.
+
+VLC and Microsoft 365 Apps were assigned to `Windows Device Group`. Office deployment tools were also reviewed.
+
+[View Lab 11 Documentation](docs/11-application-management/application-management.md)
+
+---
 ## Repository Structure
 
 ```text
@@ -227,6 +238,7 @@ Only configurations that were implemented or explicitly reviewed in the lab envi
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management experience through reproducible technical labs and documented validation.
 
 The project is intended to serve as a technical portfolio for Endpoint Administrator, IT Specialist, Modern Workplace, and Microsoft Intune-related roles.
+
 
 
 
