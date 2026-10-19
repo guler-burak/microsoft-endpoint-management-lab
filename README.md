@@ -92,6 +92,7 @@ The lab environment is designed to cover enterprise endpoint management technolo
 | 09 | Endpoint Security | Completed |
 | 10 | Update Management | Completed |
 | 11 | Application Management | Completed |
+| 12 | App Protection & App Configuration | Completed |
 
 ---
 
@@ -205,6 +206,16 @@ VLC and Microsoft 365 Apps were assigned to `Windows Device Group`. Office deplo
 [View Lab 11 Documentation](docs/11-application-management/application-management.md)
 
 ---
+
+## Lab 12 - App Protection & App Configuration
+
+Configured Microsoft Intune App Protection and App Configuration policies for iOS/iPadOS application management.
+
+The lab includes organizational data protection controls, Conditional Access in Report-only mode, and an Outlook App Configuration Policy assigned to `MD102-Intune-Users`.
+
+[View Lab 12 Documentation](docs/12-app-protection/app-protection.md)
+
+---
 ## Repository Structure
 
 ```text
@@ -238,6 +249,7 @@ Only configurations that were implemented or explicitly reviewed in the lab envi
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management experience through reproducible technical labs and documented validation.
 
 The project is intended to serve as a technical portfolio for Endpoint Administrator, IT Specialist, Modern Workplace, and Microsoft Intune-related roles.
+
 
 
 
