@@ -93,6 +93,7 @@ The lab environment is designed to cover enterprise endpoint management technolo
 | 10 | Update Management | Completed |
 | 11 | Application Management | Completed |
 | 12 | App Protection & App Configuration | Completed |
+| 13 | PowerShell & Microsoft Graph Automation | Completed |
 
 ---
 
@@ -216,6 +217,16 @@ The lab includes organizational data protection controls, Conditional Access in 
 [View Lab 12 Documentation](docs/12-app-protection/app-protection.md)
 
 ---
+
+## Lab 13 - PowerShell & Microsoft Graph Automation
+
+Used PowerShell and Microsoft Graph to query Microsoft Entra ID users, groups, and Microsoft Intune managed devices from `MD102-CL02`.
+
+Microsoft Security Copilot concepts were also reviewed without provisioning paid resources.
+
+[View Lab 13 Documentation](docs/13-graph-automation/graph-automation.md)
+
+---
 ## Repository Structure
 
 ```text
@@ -249,6 +260,7 @@ Only configurations that were implemented or explicitly reviewed in the lab envi
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management experience through reproducible technical labs and documented validation.
 
 The project is intended to serve as a technical portfolio for Endpoint Administrator, IT Specialist, Modern Workplace, and Microsoft Intune-related roles.
+
 
 
 
