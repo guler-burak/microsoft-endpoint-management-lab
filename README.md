@@ -95,6 +95,7 @@ The lab environment is designed to cover enterprise endpoint management technolo
 | 12 | App Protection & App Configuration | Completed |
 | 13 | PowerShell & Microsoft Graph Automation | Completed |
 | 14 | Windows Personalization & Corporate Branding | Completed |
+| 15 | Windows Screen Lock | Completed |
 
 ---
 
@@ -238,6 +239,16 @@ Branding assets were hosted in the repository and delivered through HTTPS. Both 
 [View Lab 14 Documentation](docs/14-windows-personalization/windows-personalization.md)
 
 ---
+
+## Lab 15 - Windows Screen Lock
+
+Configured an inactivity-based Windows screen lock policy using Microsoft Intune Settings Catalog.
+
+The policy was assigned to managed Windows devices and the resulting configuration was checked on `MD102-CL02`.
+
+[View Lab 15 Documentation](docs/15-screen-lock/screen-lock.md)
+
+---
 ## Repository Structure
 
 ```text
@@ -271,6 +282,7 @@ Only configurations that were implemented or explicitly reviewed in the lab envi
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management experience through reproducible technical labs and documented validation.
 
 The project is intended to serve as a technical portfolio for Endpoint Administrator, IT Specialist, Modern Workplace, and Microsoft Intune-related roles.
+
 
 
 
