@@ -94,6 +94,7 @@ The lab environment is designed to cover enterprise endpoint management technolo
 | 11 | Application Management | Completed |
 | 12 | App Protection & App Configuration | Completed |
 | 13 | PowerShell & Microsoft Graph Automation | Completed |
+| 14 | Windows Personalization & Corporate Branding | Completed |
 
 ---
 
@@ -227,6 +228,16 @@ Microsoft Security Copilot concepts were also reviewed without provisioning paid
 [View Lab 13 Documentation](docs/13-graph-automation/graph-automation.md)
 
 ---
+
+## Lab 14 - Windows Personalization & Corporate Branding
+
+Configured centralized Windows desktop and lock screen branding through Microsoft Intune.
+
+Branding assets were hosted in the repository and delivered through HTTPS. Both the desktop wallpaper and lock screen configuration were validated on `MD102-CL02`.
+
+[View Lab 14 Documentation](docs/14-windows-personalization/windows-personalization.md)
+
+---
 ## Repository Structure
 
 ```text
@@ -260,6 +271,7 @@ Only configurations that were implemented or explicitly reviewed in the lab envi
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management experience through reproducible technical labs and documented validation.
 
 The project is intended to serve as a technical portfolio for Endpoint Administrator, IT Specialist, Modern Workplace, and Microsoft Intune-related roles.
+
 
 
 
