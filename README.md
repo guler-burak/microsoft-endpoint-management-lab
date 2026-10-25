@@ -96,6 +96,7 @@ The lab environment is designed to cover enterprise endpoint management technolo
 | 13 | PowerShell & Microsoft Graph Automation | Completed |
 | 14 | Windows Personalization & Corporate Branding | Completed |
 | 15 | Windows Screen Lock | Completed |
+| 16 | USB Storage Restriction | Completed |
 
 ---
 
@@ -249,6 +250,16 @@ The policy was assigned to managed Windows devices and the resulting configurati
 [View Lab 15 Documentation](docs/15-screen-lock/screen-lock.md)
 
 ---
+
+## Lab 16 - USB Storage Restriction
+
+Configured a Windows removable storage restriction policy using Microsoft Intune Settings Catalog.
+
+The policy was assigned to managed Windows devices and removable storage access was validated as blocked on `MD102-CL02`.
+
+[View Lab 16 Documentation](docs/16-usb-storage-restriction/usb-storage-restriction.md)
+
+---
 ## Repository Structure
 
 ```text
@@ -282,6 +293,7 @@ Only configurations that were implemented or explicitly reviewed in the lab envi
 The purpose of this repository is to demonstrate practical Microsoft Endpoint Management experience through reproducible technical labs and documented validation.
 
 The project is intended to serve as a technical portfolio for Endpoint Administrator, IT Specialist, Modern Workplace, and Microsoft Intune-related roles.
+
 
 
 
